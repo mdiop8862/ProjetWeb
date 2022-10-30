@@ -1,0 +1,88 @@
+  .menu{
+    font-size: 1.2em;
+}
+ul{
+    list-style: none;
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+}
+
+.produitAdd{
+    border: 2px block black;
+  /*  display: flex;  */
+      width: 70% !important;  
+      height: 65vh;  
+      margin-left: 15% !important ;
+      position: absolute;
+      top: 20%;
+  /*  flex-direction: row; */
+    border-width: 2px;
+    border-style: solid;
+    border-color:rgb(215, 215, 215);
+}
+/*.left{
+    width: 200px;
+    background-color: white;
+} */
+#imageShare{
+    cursor: pointer;
+    width: 110px;
+    height: 110px;
+    z-index: 12;
+}
+#nomProduit {
+    width: 320px;
+    height: 35px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+#quantiteProduit{
+    width: 155px;
+    height: 35px;
+    margin-bottom: 15;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+#prixProduit{
+    width: 155px;
+    height: 35px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+textarea{
+    width:320px;
+    height: 80px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+#valider{
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #536DFE;
+    left: 0%;
+    
+    /* background-color: ; */
+}
+/*.imageRight{
+    margin-top: 120px;
+    margin-right: 33px !important;
+     margin-bottom: 15px; 
+}*/
+/*.imageRight img{
+    width: 400px;
+    height: 382px;
+}*/
+
+.input_file input{
+    display: none;
+}
+
+
